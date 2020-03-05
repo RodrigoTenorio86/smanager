@@ -124,3 +124,51 @@ java.util.concurrent.TimeoutException
 
 !ENTRY org.eclipse.ui 2 2 2020-03-05 06:41:32.098
 !MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-05 07:24:56.480
+!MESSAGE Preparing classpath changed notification Produto
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-05 07:24:56.505
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-05 07:24:56.509
+!MESSAGE classpath=103 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-05 07:24:56.527
+!MESSAGE buffering callback sts4.classpath.fcKhyDro Produto false 103
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-05 07:24:56.529
+!MESSAGE executing callback sts4.classpath.fcKhyDro 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-05 07:24:56.792
+!MESSAGE executing callback sts4.classpath.fcKhyDro SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-05 07:24:57.791
+!MESSAGE Preparing classpath changed notification Produto
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-05 07:24:57.792
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-05 07:24:57.797
+!MESSAGE classpath=103 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-05 07:24:57.809
+!MESSAGE buffering callback sts4.classpath.fcKhyDro Produto false 103
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-05 07:24:57.810
+!MESSAGE executing callback sts4.classpath.fcKhyDro 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-05 07:24:58.502
+!MESSAGE executing callback sts4.classpath.fcKhyDro SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-05 07:32:17.589
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.fcKhyDro
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-05 07:32:17.590
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.fcKhyDro
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-05 07:32:17.602
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-05 07:32:17.607
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.fcKhyDro => OK
