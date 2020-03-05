@@ -1,0 +1,11 @@
+server:
+  port: 8081
+  
+spring:
+  datasource: 
+    password: Rr123
+    username: root
+    url: 
+  jpa:
+    hibernate:
+      ddl-auto: create
