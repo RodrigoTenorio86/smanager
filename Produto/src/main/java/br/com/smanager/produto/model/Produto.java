@@ -2,7 +2,10 @@ package br.com.smanager.produto.model;
 
 import java.math.BigDecimal;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.EnumType;
+import javax.persistence.Enumerated;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
@@ -14,9 +17,12 @@ public class Produto {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
+	@Column(length = 50, nullable = false)
 	private String descricao;
+	@Enumerated(EnumType.STRING)
 	private Genero genero;
 	private boolean importacao;
+	@Column(precision = 18,scale = 2)
 	private BigDecimal preco;
 	
 	public Long getId() {

@@ -1,5 +1,8 @@
 package br.com.smanager.produto.description;
 
-public enum Genero {
+import javax.persistence.Entity;
 
+@Entity
+public enum Genero {
+LIVROS, ALIMENTOS, REMEDIOS, COSMETICOS, ;
 }

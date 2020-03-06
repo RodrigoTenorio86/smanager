@@ -1,4 +1,4 @@
-version: '3.1'
+version: '3.3'
 
 services:
   db:
@@ -15,4 +15,4 @@ services:
       test: ["CMD-SHELL", 'mysqladmin ping']
       interval: 10s
       timeout: 2s
-retries: 10 
+      retries: 10 
