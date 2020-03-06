@@ -3,7 +3,6 @@ spring:
     password: Rr123
     username: root
     url: jdbc:mysql://localhost:3306/smanager
-    driver-class-name: com.mysql.cj.jdbc.Driver
   jpa:
     show-sql: true
     database: MYSQL
