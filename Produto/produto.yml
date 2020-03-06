@@ -2,7 +2,7 @@ spring:
   datasource: 
     password: Rr123
     username: root
-    url: jdbc:mysql://localhost:3306/smanager
+    url: jdbc:mysql://db:3306/smanager
   jpa:
     show-sql: true
     database: MYSQL
