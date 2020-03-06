@@ -6,5 +6,5 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/RodrigoTenorio86/smanager/blob/master/Produto/produto.yml
+          uri: https://github.com/RodrigoTenorio86/smanager
           search-paths: produto
