@@ -7,4 +7,4 @@ spring:
       server:
         git:
           uri: https://github.com/RodrigoTenorio86/smanager
-          search-paths: produto
+          search-paths: Produto
