@@ -1,11 +1,13 @@
 package br.com.smanager.produto.repository;
 
-import org.springframework.data.jpa.repository.JpaRepository;
+import java.util.List;
+
+import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
 import br.com.smanager.produto.model.Produto;
 
 @Repository
-public interface ProdutoRepository extends JpaRepository<Produto,Long>{
-
+public interface ProdutoRepository extends CrudRepository<Produto, Long> {
+	List<Produto> findByIdIn(List<Long> id);
 }

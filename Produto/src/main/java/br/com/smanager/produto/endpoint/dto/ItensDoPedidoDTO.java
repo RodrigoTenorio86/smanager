@@ -1,6 +1,6 @@
-package br.com.smanager.compra.endpoint.dto;
+package br.com.smanager.produto.endpoint.dto;
 
-public class Itens {
+public class ItensDoPedidoDTO {
 	private int quantidade;
 	private long idProduto;
 
@@ -19,5 +19,6 @@ public class Itens {
 	public void setIdProduto(long idProduto) {
 		this.idProduto = idProduto;
 	}
+
 
 }

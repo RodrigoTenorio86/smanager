@@ -21,7 +21,7 @@ public class Produto {
 	private String descricao;
 	@Enumerated(EnumType.STRING)
 	private Genero genero;
-	private boolean importacao;
+	private int importacao;
 	@Column(precision = 18,scale = 2)
 	private BigDecimal preco;
 	
@@ -43,17 +43,17 @@ public class Produto {
 	public void setGenero(Genero genero) {
 		this.genero = genero;
 	}
-	public boolean isImportacao() {
-		return importacao;
-	}
-	public void setImportacao(boolean importacao) {
-		this.importacao = importacao;
-	}
 	public BigDecimal getPreco() {
 		return preco;
 	}
 	public void setPreco(BigDecimal preco) {
 		this.preco = preco;
+	}
+	public int getImportacao() {
+		return importacao;
+	}
+	public void setImportacao(int importacao) {
+		this.importacao = importacao;
 	}
 	
 	
