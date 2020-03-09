@@ -4,11 +4,21 @@ import java.math.BigDecimal;
 
 import br.com.smanager.compra.descricao.Genero;
 
-public class ProdutoDTO {
+public class Produto {
+	private Long id;
 	private String descricao;
 	private Genero genero;
 	private int importacao;
 	private BigDecimal preco;
+	
+	
+	
+	public Long getId() {
+		return id;
+	}
+	public void setId(Long id) {
+		this.id = id;
+	}
 	public String getDescricao() {
 		return descricao;
 	}

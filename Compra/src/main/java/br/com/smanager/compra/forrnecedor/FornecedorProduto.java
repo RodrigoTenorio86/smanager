@@ -8,15 +8,15 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 
-import br.com.smanager.compra.endpoint.dto.Itens;
+import br.com.smanager.compra.endpoint.dto.PedidoItem;
 import br.com.smanager.compra.endpoint.dto.PedidoDTO;
-import br.com.smanager.compra.endpoint.dto.ProdutoDTO;
+import br.com.smanager.compra.endpoint.dto.Produto;
 
 @FeignClient("produto")
 public interface FornecedorProduto {
 	@GetMapping("/v1/produtos/{id}")
-	public ProdutoDTO getProduto(@PathVariable("id") Long id);
+	public Produto getProduto(@PathVariable("id") Long id);
 
 	@PostMapping("/v1/produtos")
-	public PedidoDTO realizaPedido(@RequestBody List<Itens> produtos);
+	public PedidoDTO realizaPedido(@RequestBody List<PedidoItem> produtos);
 }

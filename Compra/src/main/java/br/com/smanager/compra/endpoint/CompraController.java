@@ -7,7 +7,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import br.com.smanager.compra.endpoint.dto.CompraDTOIn;
-import br.com.smanager.compra.endpoint.dto.Itens;
+import br.com.smanager.compra.endpoint.dto.PedidoItem;
+import br.com.smanager.compra.model.Nota;
 import br.com.smanager.compra.model.ResultadoTaxa;
 import br.com.smanager.compra.service.CompraService;
 
@@ -18,8 +19,9 @@ public class CompraController {
 	private CompraService compraService;
 	
 	@PostMapping
-	public void realizaCompra(@RequestBody CompraDTOIn compraDTOIn) {
-		ResultadoTaxa resultado=        compraService.realizaCompra(compraDTOIn);
+	public Nota realizaCompra(@RequestBody CompraDTOIn compraDTOIn) {
+		Nota nota=        compraService.realizaCompra(compraDTOIn);
+		return nota;
 		
 	}
 }

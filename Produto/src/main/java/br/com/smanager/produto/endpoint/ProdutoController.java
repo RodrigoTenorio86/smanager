@@ -30,18 +30,25 @@ public class ProdutoController {
 	}
 	
 
-	
-	@PostMapping
+/**
+ * 	
+ * @param produtos
+ * @return
+ * 
+ * 	@PostMapping
 	public ResponseEntity<?> realizaPedido(@RequestBody List<ItensDoPedidoDTO> produtos){
 		Pedido pedido = produtoService.realizaPedido(produtos);
 		return new ResponseEntity<>(pedido,HttpStatus.OK);		
 	}
+ * 
+ */
+
 	
-	//@PostMapping
-	//public Pedido realizaPedido(@RequestBody List<ItensDoPedidoDTO> produtos){
-	//	Pedido pedido = produtoService.realizaPedido(produtos);
-	//	return pedido;
-    //}
+	@PostMapping
+	public Pedido realizaPedido(@RequestBody List<ItensDoPedidoDTO> produtos){
+		Pedido pedido = produtoService.realizaPedido(produtos);
+		return pedido;
+    }
 	
 	
 }
