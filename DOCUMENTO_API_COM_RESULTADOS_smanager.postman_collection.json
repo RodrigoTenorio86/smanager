@@ -1,0 +1,108 @@
+{
+	"info": {
+		"_postman_id": "e36c28b6-a2e2-41c2-8076-735e4971db14",
+		"name": "smanager",
+		"description": "teste da API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Eureka-server-apps",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8761/eureka/apps",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8761",
+					"path": [
+						"eureka",
+						"apps"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CONFIG-SERVER",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8888/produto/default",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8888",
+					"path": [
+						"produto",
+						"default"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Post-Compra",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"itens\":[\n\t\t{\n\t\t\t\"quantidade\":1,\n\t\t\t\"idProduto\":1\n\t\t},\n\t\t{\n\t\t\t\"quantidade\":1,\n\t\t\t\"idProduto\":2\n\t\t},\n\t\t{\n\t\t\t\"quantidade\":1,\n\t\t\t\"idProduto\":3\n\t\t}\n\t\t\n\t\t\n\t\t\n\t]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/v1/compra",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"v1",
+						"compra"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET-Produtos por id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/v1/produtos/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"v1",
+						"produtos",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
