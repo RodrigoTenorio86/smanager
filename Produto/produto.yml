@@ -6,7 +6,7 @@ spring:
     #url: jdbc:mysql://db:3306/smanager
     url: jdbc:mysql://db:3306/smanager?useSSL=false
     #driver-class-name: com.mysql.cj.jdbc.Driver
-    driverClassName: com.mysql.jdbc.Driver
+    driverClassName: com.mysql.cj.jdbc.Driver
   jpa:
     show-sql: true
     database: MYSQL

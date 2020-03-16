@@ -5699,3 +5699,25 @@ Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: start tag u
 2020-03-15 19:29:39,640 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/rtenorio/Documents/workspace-spring-tool-suite-4-4.5.1.RELEASE/smanager/Produto/src/test/resources
 2020-03-15 19:30:02,488 [Worker-15: Launching Produto] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/rtenorio/Documents/workspace-spring-tool-suite-4-4.5.1.RELEASE/smanager/Produto
 2020-03-15 19:30:02,490 [Worker-15: Launching Produto] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -Dmaven.test.skip=true -DskipTests clean install  package -X -Dstyle.color=always
+2020-03-15 19:48:55,386 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2020-03-15 19:49:56,147 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-15 19:49:56,162 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-03-15 19:49:56,220 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2020-03-15 19:49:56,227 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-15 19:49:56,227 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/rtenorio/Documents/workspace-spring-tool-suite-4-4.5.1.RELEASE/smanager/Produto/src/test/resources
+2020-03-15 19:49:58,396 [Worker-0: Launching Produto] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/rtenorio/Documents/workspace-spring-tool-suite-4-4.5.1.RELEASE/smanager/Produto
+2020-03-15 19:49:58,399 [Worker-0: Launching Produto] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -Dmaven.test.skip=true -DskipTests clean install  package -X -Dstyle.color=always
+2020-03-15 19:52:33,094 [Worker-10: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2020-03-15 19:52:40,008 [Worker-10: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.com.smanager.produto:Produto:0.0.1-SNAPSHOT @ /home/rtenorio/Documents/workspace-spring-tool-suite-4-4.5.1.RELEASE/smanager/Produto/pom.xml.
+2020-03-15 19:52:50,321 [Worker-10: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Produto/src/main/java
+2020-03-15 19:52:50,322 [Worker-10: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Produto/src/main/resources
+2020-03-15 19:52:50,324 [Worker-10: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Produto/src/main/resources
+2020-03-15 19:52:50,327 [Worker-10: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Produto/src/test/java
+2020-03-15 19:52:53,055 [Worker-10: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 19 sec
+2020-03-15 19:52:57,121 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-15 19:52:57,122 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-03-15 19:52:57,188 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2020-03-15 19:52:57,250 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-15 19:52:57,251 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/rtenorio/Documents/workspace-spring-tool-suite-4-4.5.1.RELEASE/smanager/Produto/src/test/resources
+2020-03-15 19:53:13,372 [Worker-13: Launching Produto] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/rtenorio/Documents/workspace-spring-tool-suite-4-4.5.1.RELEASE/smanager/Produto
+2020-03-15 19:53:13,373 [Worker-13: Launching Produto] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -Dmaven.test.skip=true -DskipTests clean install  package -X -Dstyle.color=always
