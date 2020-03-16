@@ -2,8 +2,11 @@ version: "3.0"
 services:
   db:
     image: rodrigotenorio86/mysql
+    container_name: db
     ports:
       - "3306:3306"
+    networks:
+      - production-network
     restart: on-failure:3
     environment:
        MYSQL_ROOT_PASSWORD: Rr123
@@ -20,11 +23,15 @@ services:
     container_name: eureka
     ports:
       - "8761:8761"
+    networks:
+      - production-network
   config-server:
     image: rodrigotenorio86/smanager_config_server
     container_name: config_server
     ports:
       - "8888:8888"
+    networks:
+      - production-network
     depends_on:
       - "eureka"
       - "db"
@@ -33,6 +40,8 @@ services:
     container_name: produto
     ports: 
       - "8081:8081"
+    networks:
+      - production-network
     restart: on-failure:3
     links:
       - db
@@ -40,4 +49,20 @@ services:
       - "eureka"
       - "config-server"
       - "db"
+  compra:
+    image: rodrigotenorio86/smanager_compra
+    container_name: compra
+    ports:
+      - "8080:8080"
+    networks:
+      - production-network
+    restart: on-failure:3
+    depends_on:
+      - "eureka"
+      - "config-server"
+      - "db"
+      - "produto"
+networks:
+  production-network:
+    driver: bridge
 
