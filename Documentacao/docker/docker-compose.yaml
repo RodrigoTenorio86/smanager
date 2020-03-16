@@ -1,0 +1,43 @@
+version: "3.0"
+services:
+  db:
+    image: rodrigotenorio86/mysql
+    ports:
+      - "3306:3306"
+    restart: on-failure:3
+    environment:
+       MYSQL_ROOT_PASSWORD: Rr123
+       MYSQL_USER: root
+       MYSQL_DATABASE: smanager
+       MYSQL_PASSWORD: Rr123
+    healthcheck:
+      test: ["CMD-SHELL", 'mysqladmin ping']
+      interval: 10s
+      timeout: 2s
+      retries: 10
+  eureka:
+    image: rodrigotenorio86/smanager_eureka
+    container_name: eureka
+    ports:
+      - "8761:8761"
+  config-server:
+    image: rodrigotenorio86/smanager_config_server
+    container_name: config_server
+    ports:
+      - "8888:8888"
+    depends_on:
+      - "eureka"
+      - "db"
+  produto:
+    image: rodrigotenorio86/smanager_produto
+    container_name: produto
+    ports: 
+      - "8081:8081"
+    restart: on-failure:3
+    links:
+      - db
+    depends_on:
+      - "eureka"
+      - "config-server"
+      - "db"
+

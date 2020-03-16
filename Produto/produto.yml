@@ -1,11 +1,19 @@
 spring:
   datasource: 
+    initialization-mode: always
     password: Rr123
     username: root
-    url: jdbc:mysql://localhost:3306/smanager
-    driver-class-name: com.mysql.cj.jdbc.Driver
+    #url: jdbc:mysql://db:3306/smanager
+    url: jdbc:mysql://db:3306/smanager?useSSL=false
+    #driver-class-name: com.mysql.cj.jdbc.Driver
+    driverClassName: com.mysql.jdbc.Driver
   jpa:
     show-sql: true
     database: MYSQL
     hibernate:
       ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL5InnoDBDialect      
+        format_sql: true
+        show_sql: true
