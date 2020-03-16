@@ -5798,3 +5798,78 @@ Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: start tag u
 2020-03-16 10:52:31,152 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/rtenorio/Documents/workspace-spring-tool-suite-4-4.5.1.RELEASE/smanager/Produto/src/test/resources
 2020-03-16 10:54:00,072 [Worker-14: Launching Produto] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/rtenorio/Documents/workspace-spring-tool-suite-4-4.5.1.RELEASE/smanager/Produto
 2020-03-16 10:54:00,073 [Worker-14: Launching Produto] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -Dmaven.test.skip=true -DskipTests clean install  package -X -Dstyle.color=always
+2020-03-16 11:10:19,192 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-16 11:10:19,312 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-03-16 11:10:19,357 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-16 11:10:19,366 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-16 11:10:19,370 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/rtenorio/Documents/workspace-spring-tool-suite-4-4.5.1.RELEASE/smanager/Produto/src/test/resources
+2020-03-16 11:10:29,985 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-16 11:10:29,986 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-16 11:10:29,987 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-03-16 11:10:30,082 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-16 11:10:30,083 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/rtenorio/Documents/workspace-spring-tool-suite-4-4.5.1.RELEASE/smanager/Produto/src/test/resources
+2020-03-16 11:10:35,320 [Worker-22: Launching Produto] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/rtenorio/Documents/workspace-spring-tool-suite-4-4.5.1.RELEASE/smanager/Produto
+2020-03-16 11:10:35,320 [Worker-22: Launching Produto] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -Dmaven.test.skip=true -DskipTests clean install  package -X -Dstyle.color=always
+2020-03-16 11:30:02,138 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-16 11:30:02,204 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-03-16 11:30:02,260 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-03-16 11:30:02,376 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-16 11:30:02,376 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/rtenorio/Documents/workspace-spring-tool-suite-4-4.5.1.RELEASE/smanager/Produto/src/test/resources
+2020-03-16 11:30:46,606 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-16 11:30:46,607 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-03-16 11:30:46,608 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-16 11:30:46,616 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-16 11:30:46,616 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/rtenorio/Documents/workspace-spring-tool-suite-4-4.5.1.RELEASE/smanager/Compra/src/test/resources
+2020-03-16 11:31:42,176 [Worker-29: Launching Produto] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/rtenorio/Documents/workspace-spring-tool-suite-4-4.5.1.RELEASE/smanager/Produto
+2020-03-16 11:31:42,176 [Worker-29: Launching Produto] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -Dmaven.test.skip=true -DskipTests clean install  package -X -Dstyle.color=always
+2020-03-16 11:32:14,882 [Worker-23: Launching Compra] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/rtenorio/Documents/workspace-spring-tool-suite-4-4.5.1.RELEASE/smanager/Compra
+2020-03-16 11:32:14,885 [Worker-23: Launching Compra] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -Dmaven.test.skip=true -DskipTests clean install package -X -Dstyle.color=always
+2020-03-16 12:05:10,933 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-16 12:05:10,968 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-16 12:05:10,968 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-16 12:05:10,976 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-16 12:05:10,976 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/rtenorio/Documents/workspace-spring-tool-suite-4-4.5.1.RELEASE/smanager/Produto/src/test/resources
+2020-03-16 12:05:28,969 [Worker-26: Launching Produto] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/rtenorio/Documents/workspace-spring-tool-suite-4-4.5.1.RELEASE/smanager/Produto
+2020-03-16 12:05:28,969 [Worker-26: Launching Produto] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -Dmaven.test.skip=true -DskipTests clean install  package -X -Dstyle.color=always
+2020-03-16 12:19:32,552 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-16 12:19:32,563 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-16 12:19:32,564 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-16 12:19:32,568 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-16 12:19:32,568 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/rtenorio/Documents/workspace-spring-tool-suite-4-4.5.1.RELEASE/smanager/Produto/src/test/resources
+2020-03-16 12:33:08,248 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-16 12:33:08,269 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-16 12:33:08,269 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-16 12:33:08,315 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-16 12:33:08,315 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/rtenorio/Documents/workspace-spring-tool-suite-4-4.5.1.RELEASE/smanager/Produto/src/test/resources
+2020-03-16 12:37:19,776 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-16 12:37:19,777 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-16 12:37:19,777 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-03-16 12:37:19,814 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-16 12:37:19,814 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/rtenorio/Documents/workspace-spring-tool-suite-4-4.5.1.RELEASE/smanager/Produto/src/test/resources
+2020-03-16 12:37:35,101 [Worker-39: Launching Produto] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/rtenorio/Documents/workspace-spring-tool-suite-4-4.5.1.RELEASE/smanager/Produto
+2020-03-16 12:37:35,101 [Worker-39: Launching Produto] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -Dmaven.test.skip=true -DskipTests clean install  package -X -Dstyle.color=always
+2020-03-16 12:50:09,459 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-16 12:50:09,550 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-16 12:50:09,551 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-16 12:50:09,553 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-16 12:50:09,553 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/rtenorio/Documents/workspace-spring-tool-suite-4-4.5.1.RELEASE/smanager/Produto/src/test/resources
+2020-03-16 14:21:31,136 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2020-03-16 14:52:28,639 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-16 14:52:28,876 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-03-16 14:52:28,910 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2020-03-16 14:52:29,045 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-16 14:52:29,046 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/rtenorio/Documents/workspace-spring-tool-suite-4-4.5.1.RELEASE/smanager/Produto/src/test/resources
+2020-03-16 14:56:34,882 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-16 14:56:34,882 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-03-16 14:56:34,895 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-16 14:56:34,899 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-16 14:56:34,899 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/rtenorio/Documents/workspace-spring-tool-suite-4-4.5.1.RELEASE/smanager/Compra/src/test/resources
+2020-03-16 14:56:49,815 [Worker-17: Launching Compra] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/rtenorio/Documents/workspace-spring-tool-suite-4-4.5.1.RELEASE/smanager/Compra
+2020-03-16 14:56:49,817 [Worker-17: Launching Compra] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -Dmaven.test.skip=true -DskipTests clean install package -X -Dstyle.color=always
+2020-03-16 15:01:53,789 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-16 15:01:53,793 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-16 15:01:53,794 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-16 15:01:53,799 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-16 15:01:53,799 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/rtenorio/Documents/workspace-spring-tool-suite-4-4.5.1.RELEASE/smanager/Produto/src/test/resources
+2020-03-16 15:02:04,283 [Worker-19: Launching Produto] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/rtenorio/Documents/workspace-spring-tool-suite-4-4.5.1.RELEASE/smanager/Produto
+2020-03-16 15:02:04,284 [Worker-19: Launching Produto] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -Dmaven.test.skip=true -DskipTests clean install  package -X -Dstyle.color=always

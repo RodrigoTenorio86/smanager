@@ -46,7 +46,7 @@ public class ResultadoTaxa {
 
 	public void calcularTaxaProduto(List<ItensDaNota> itensDaNotas) {
 		
-		itensDaNotas.stream().filter(item->item.getGenero().equals(Genero.ELETRODOMESTICOS) )
+		itensDaNotas.stream().filter(item->item.getGenero().equals(Genero.ELETRODOMESTICOS)||item.getGenero().equals(Genero.COSMETICOS) )
                              .forEach(item->item.setPreco( item.getPreco().add(item.getPreco().multiply(TAXA_PRODUTO)).setScale(2, BigDecimal.ROUND_HALF_DOWN)));
 	}
 

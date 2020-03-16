@@ -36,6 +36,8 @@ services:
     restart: on-failure:3
     links:
       - db
+      - config-server
+      - eureka
     depends_on:
       db:
         condition: service_healthy
@@ -49,6 +51,11 @@ services:
     ports:
       - "8080:8080"
     restart: on-failure:3
+    links:
+      - db
+      - produto
+      - config-server
+      - eureka
     depends_on:
       db:
         condition: service_healthy
