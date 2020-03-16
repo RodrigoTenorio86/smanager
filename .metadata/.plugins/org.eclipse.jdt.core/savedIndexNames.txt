@@ -129,7 +129,6 @@ INDEX VERSION 1.131+/home/rtenorio/Documents/workspace-spring-tool-suite-4-4.5.1
 2121967512.index
 582602425.index
 1175568199.index
-1258881190.index
 1622730720.index
 520771089.index
 1564445368.index
