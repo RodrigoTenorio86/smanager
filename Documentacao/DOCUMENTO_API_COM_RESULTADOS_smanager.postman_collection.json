@@ -102,6 +102,65 @@
 				}
 			},
 			"response": []
+		},
+		{
+			"name": "Post_Compra Input2",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"itens\":[\n\t\t{\n\t\t\t\"quantidade\":1,\n\t\t\t\"idProduto\":4\n\t\t},\n\t\t{\n\t\t\t\"quantidade\":1,\n\t\t\t\"idProduto\":5\n\t\t}\n\t\t\n\t\t\n\t\t\n\t]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/v1/compra",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"v1",
+						"compra"
+					]
+				},
+				"description": "teste para segundo cenario de compra"
+			},
+			"response": []
+		},
+		{
+			"name": "Post_Compra Input3",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"itens\":[\n\t\t{\n\t\t\t\"quantidade\":1,\n\t\t\t\"idProduto\":6\n\t\t},\n\t\t{\n\t\t\t\"quantidade\":1,\n\t\t\t\"idProduto\":7\n\t\t},\n\t\t\t\t{\n\t\t\t\"quantidade\":1,\n\t\t\t\"idProduto\":8\n\t\t},\n\t\t{\n\t\t\t\"quantidade\":1,\n\t\t\t\"idProduto\":9\n\t\t}\n\t\t\n\t\t\n\t\t\n\t]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/v1/compra",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"v1",
+						"compra"
+					]
+				}
+			},
+			"response": []
 		}
 	],
 	"protocolProfileBehavior": {}
